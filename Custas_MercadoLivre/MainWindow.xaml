@@ -1,0 +1,22 @@
+﻿<Window x:Class="Custas_MercadoLivre.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Custas_MercadoLivre"
+        mc:Ignorable="d"
+        Title="Custas Mercado Livre" Height="400" Width="700">
+    <Grid Background="DimGray">
+        <Button x:Name="Inicia_btn" Content="Iniciar Execução" Margin="254,286,228,40" Click="Inicia_btn_Click"/>
+        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Height="33" Margin="253,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" IsEnabled="True" FontSize="18"/>
+        <PasswordBox x:Name="txtSenha" HorizontalAlignment="Left" Height="34" Margin="252,126,0,0" VerticalAlignment="Top" Width="200" FontSize="18"/>
+        <TextBox x:Name="txtPagamento" HorizontalAlignment="Left" Height="33" Margin="254,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" IsEnabled="True" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="252,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="200" FontFamily="Arial Black" FontSize="18"><Run Text="Usuário:"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="252,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="99" FontFamily="Arial Black" FontSize="18"><Run Text="Senha:"/><LineBreak/><Run/></TextBlock>
+        <Image Source="Imagens/logo_ML.png" Margin="468,114,-16,117"></Image>
+        <Image Source="Imagens/logo.png" Margin="26,53,506,56"></Image>
+        <Label Content="Data PG:" HorizontalAlignment="Left" Margin="248,176,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.216,0.462" Width="188" FontSize="18" FontFamily="Arial Black"/>
+        <Label Content="(dd/mm/aaaa)" HorizontalAlignment="Left" Margin="342,179,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

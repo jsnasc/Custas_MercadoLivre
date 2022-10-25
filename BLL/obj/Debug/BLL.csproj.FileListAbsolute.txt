@@ -1,0 +1,17 @@
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\BLL.dll
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\BLL.pdb
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\ClosedXML.dll
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\DocumentFormat.OpenXml.dll
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\ExcelNumberFormat.dll
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\VersaoChromedriver.dll
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\WebDriver.dll
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\ClosedXML.pdb
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\ClosedXML.xml
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\DocumentFormat.OpenXml.xml
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\ExcelNumberFormat.xml
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\bin\Debug\VersaoChromedriver.pdb
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\obj\Debug\BLL.csproj.CopyComplete
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\obj\Debug\BLL.dll
+S:\TI\CodigoCsharp\Custas_MercadoLivre\BLL\obj\Debug\BLL.pdb
