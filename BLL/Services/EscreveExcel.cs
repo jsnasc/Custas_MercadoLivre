@@ -22,9 +22,11 @@ namespace BLL.Services
 
                     ws.Cell("A1").Value = "Pasta Cliente";
                     ws.Cell("B1").Value = "Processo";
-                    ws.Cell("C1").Value = "Status";
-                    ws.Cell("D1").Value = "Data e Hora";
-                    ws.Range("A1:D1").Style.Font.Bold = true;
+                    ws.Cell("C1").Value = "Valor";
+                    ws.Cell("D1").Value = "Status";
+                    ws.Cell("E1").Value = "Data";
+                    ws.Cell("F1").Value = "ID_Custa_Solicitada";
+                    ws.Range("A1:F1").Style.Font.Bold = true;
 
 
                     int l = 2;
@@ -33,27 +35,14 @@ namespace BLL.Services
                     {
                         ws.Cell($"A{l}").Value = item.Pasta_Cliente;
                         ws.Cell($"B{l}").Value = item.Processo;
-                        ws.Cell($"C{l}").Value = item.Status;
-                        ws.Cell($"E{l}").Value = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
+                        ws.Cell($"C{l}").Value = item.Valor;
+                        ws.Cell($"D{l}").Value = item.Status;
+                        ws.Cell($"E{l}").Value = DateTime.Now.ToString("dd/MM/yyyy");
+                        ws.Cell($"F{l}").SetValue(item.ID_ELaw);
                         l++;
                     }
 
                     wbook.Save();
-
-                    /*IXLWorksheet ws = workbook.Worksheets.Add("Status-Encerrado");
-                    ws.Cell(1,1).Value = "Pasta_Cliente";
-                    ws.Cell(1,1).Style.Font.Bold = true;
-
-                    ws.Cell(1,2).Value = "Processo";
-                    ws.Cell(1,2).Style.Font.Bold = true;
-
-                    ws.Cell(1, 3).Value = "Status";
-                    ws.Cell(1, 3).Style.Font.Bold = true;
-
-                    ws.Cell(linha,1).Value = dado.Pasta_Cliente;
-                    ws.Cell(linha,2).Value = dado.Processo;
-                    ws.Cell(linha,3).Value = "ENCERRADO";*/
-
                     //workbook.SaveAs($@"{Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)}\Desktop\ML-Processos-Encerrados.xlsx");
                 }
             }

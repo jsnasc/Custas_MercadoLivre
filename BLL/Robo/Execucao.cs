@@ -58,7 +58,6 @@ namespace BLL.Robo
 
                         while (confereitem(driver, "//input[@placeholder='Pesquise por aqui!']"))
                         {
-                            
 
                         }
 
@@ -298,7 +297,6 @@ namespace BLL.Robo
                         Thread.Sleep(2000);
                         driver.FindElement(By.Id(id)).Click();
 
-
                         //ContaContabil
                         driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_c_1_9_1q_1_1_1:j_id_2l_28_c_1_9_1q_1_1_c_label")).Click();
                         driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_c_1_9_1q_1_1_1:j_id_2l_28_c_1_9_1q_1_1_c_filter")).SendKeys(contaContabil);
@@ -320,10 +318,8 @@ namespace BLL.Robo
 
                         //Dados bancário - Banco
                         driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:j_id_2l_28_e_1_9_1q_1_2_c_az_label")).Click();
-                        //driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:j_id_2l_28_e_1_9_1q_1_2_c_az_filter")).SendKeys("341"); -- ITAU
                         driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:j_id_2l_28_e_1_9_1q_1_2_c_az_filter")).SendKeys("237"); //BRADESCO
                         Thread.Sleep(2000);
-                        //driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:j_id_2l_28_e_1_9_1q_1_2_c_az_198")).Click(); -- ITAU
                         driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:j_id_2l_28_e_1_9_1q_1_2_c_az_155")).Click();//BRADESCO
                         Thread.Sleep(1000);
 
@@ -331,7 +327,6 @@ namespace BLL.Robo
                         try
                         {
                             driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioAgencia")).Click();
-                            //driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioAgencia")).SendKeys("5628"); 
                             driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioAgencia")).SendKeys("0468");
                             Thread.Sleep(1000);
                         }
@@ -339,7 +334,6 @@ namespace BLL.Robo
                         {
                             Thread.Sleep(2000);
                             driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioAgencia")).Click();
-                            //driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioAgencia")).SendKeys("5628");
                             driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioAgencia")).SendKeys("0468");
                             Thread.Sleep(1000);
                         }
@@ -349,7 +343,6 @@ namespace BLL.Robo
                         {
                             driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioContaCorrente")).Click();
                             Thread.Sleep(1000);
-                            //driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioContaCorrente")).SendKeys("25846-8");
                             driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioContaCorrente")).SendKeys("0627178-2");
                         }
                         catch
@@ -357,7 +350,7 @@ namespace BLL.Robo
                             Thread.Sleep(2000);
                             driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioContaCorrente")).Click();
                             Thread.Sleep(1000);
-                            driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioContaCorrente")).SendKeys("25846-8");
+                            driver.FindElement(By.Id("processoValorPagamentoEditForm:pvp:j_id_2l_28_e_1_9_1q_1_2_1:j_id_2l_28_e_1_9_1q_1_2_c_2:j_id_2l_28_e_1_9_1q_1_2_c_7:0:j_id_2l_28_e_1_9_1q_1_2_c_10:bancarioContaCorrente")).SendKeys("0627178-2");
                         }
 
                         //Caminho do arquivo
@@ -368,7 +361,11 @@ namespace BLL.Robo
                         }
                         catch
                         {
-                            GravarLog(pagamento,"ERRO: Não foi possível anexar o documento!");
+                            string erroMsg = "ERRO: Não foi possível anexar o documento!";
+                            GravarLog(pagamento,erroMsg);
+                            EscreveExcel novoItem = new EscreveExcel();
+                            pagamento.Status = erroMsg;
+                            novoItem.GeraLogXLSX(dadosPagamento);
                             continue;
                         }
 
@@ -399,26 +396,42 @@ namespace BLL.Robo
                             Thread.Sleep(1000);
                         }
 
-                        //futuro botão SALVAR
-                        //driver.ExecuteScript($"document.getElementById('processoValorPagamentoEditForm:btnSalvarProcessoValorPagamento').click()");
-                        
-                        Thread.Sleep(1500);
-                        Waitforload(driver);
+                        //botão SALVAR
+                        try
+                        {
+                            driver.ExecuteScript($"document.getElementById('processoValorPagamentoEditForm:btnSalvarProcessoValorPagamento').click()");
+                            Thread.Sleep(1500);
+                            Waitforload(driver);
 
-                        GravarLog(pagamento, "INCLUSÃO BEM SUCEDIDA");
-                        EscreveExcel novoItem = new EscreveExcel();
-                        pagamento.Status = "INCLUSÃO BEM SUCEDIDA";
-                        novoItem.GeraLogXLSX(dadosPagamento);
+                            driver.Navigate().GoToUrl("https://mercadolivre.elaw.com.br/processoView.elaw");
+                            ////*[@id='tabViewProcesso:pvp-dtProcessoValorResults']/div[2]/table/tbody/tr/td[3]/div - -xpath valor
+                            pagamento.ID_ELaw = driver.FindElement(By.XPath("//*[@id='tabViewProcesso:pvp-dtProcessoValorResults']/div[2]/table/tbody/tr/td[3]/div")).Text;
 
-                        Thread.Sleep(1000);
-                        //continue;
+
+                            GravarLog(pagamento, "INCLUSÃO BEM SUCEDIDA");
+                            EscreveExcel novoItem = new EscreveExcel();
+                            pagamento.Status = "INCLUSÃO BEM SUCEDIDA";
+                            novoItem.GeraLogXLSX(dadosPagamento);
+
+                            Thread.Sleep(1000);
+                            //continue
+                        }catch (Exception ex){
+
+                            GravarLog(pagamento, $"ERRO: {ex.Message}");
+
+                            EscreveExcel novoItem = new EscreveExcel();
+                            pagamento.Status = ex.Message;
+                            novoItem.GeraLogXLSX(dadosPagamento);
+                            Waitforload(driver);
+                        }
                     }
                     catch (Exception ex)
                     {
                         GravarLog(pagamento,$"ERRO: {ex.Message}");
 
                         EscreveExcel novoItem = new EscreveExcel();
-                        pagamento.Status = $"ERRO: Não foi possível realizar a solicitação";
+                        //pagamento.Status = $"ERRO: Não foi possível seguir com a solicitação";
+                        pagamento.Status = ex.Message;
                         novoItem.GeraLogXLSX(dadosPagamento);
                         Waitforload(driver);
                     }

@@ -27,5 +27,7 @@ namespace BLL.Entity
         public string Status { get; set; }
 
         public string diaHora { get; set; }
+
+        public string ID_ELaw { get; set; }
     }
 }
